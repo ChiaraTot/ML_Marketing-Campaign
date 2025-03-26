@@ -15,7 +15,8 @@ Este proyecto implementa técnicas avanzadas de Machine Learning para analizar y
 Dataset: Conjunto de datos opensource disponible en Kaggle
 
 
-### 💡 Importancia de la Segmentación en Marketing
+### 💡 Importancia de la Segmentación en Marketing  
+
 La segmentación de clientes en Marketing es fundamental para:
 
 ✅ Diseñar campañas más efectivas y personalizadas  
@@ -56,11 +57,11 @@ Ruta repositorio : git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
 ##### Tipo: Aprendizaje no supervisado
 ##### Objetivo: Agrupar clientes en clusters basados en similitudes
 ##### Proceso:
-   ``1.Preparación y limpieza de datos``
-   2.Elaboración EDA
-   3.Selección de características relevantes
-   4.Aplicación del algoritmo K-Means
-   5.Análisis de resultados y visualización de clusters
+``Preparación y limpieza de datos``  
+``Elaboración EDA``  
+``Selección de características relevantes``  
+``Aplicación del algoritmo K-Means``  
+``Análisis de resultados y visualización de clusters``
 
 
 
@@ -74,7 +75,7 @@ Ruta repositorio : git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
 - Seaborn
 
 
-####📈Métricas de Evaluación
+#### 📈Métricas de Evaluación
 
 - Coeficiente de Silhouette
 - Inercia (Within-Cluster Sum of Squares) :Metodo del codo
