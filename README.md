@@ -36,6 +36,8 @@ En funcion del las variables proporcionadas en el dataset, se ha podido efectuar
 #### 🛠 Estructura del Repositorio
 
 ``src/data_sample`` # Archivo con los datos
+
+~~~
 project-root/
 │
 ├── src/
@@ -48,20 +50,21 @@ project-root/
 │
 ├── PRESENTACION.ppt          # Presentacion del proyecto
 └── README.md                 # Documentación del proyecto
+~~~  
 
 Ruta repositorio : git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
 
- ### 🧠Metodología de Machine Learning
+ ### 🧠 Metodología de Machine Learning
  #### Algoritmo Principal: K-Means
 
 ##### Tipo: Aprendizaje no supervisado
 ##### Objetivo: Agrupar clientes en clusters basados en similitudes
 ##### Proceso:
-``Preparación y limpieza de datos``  
-``Elaboración EDA``  
-``Selección de características relevantes``  
-``Aplicación del algoritmo K-Means``  
-``Análisis de resultados y visualización de clusters``
+``1.Preparación y limpieza de datos``  
+``2.Elaboración EDA``  
+``3.Selección de características relevantes``  
+``3.Aplicación del algoritmo K-Means``  
+``4.Análisis de resultados y visualización de clusters``
 
 
 
