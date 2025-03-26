@@ -1,6 +1,6 @@
-🎯 # Segmentación de Clientes con Machine Learning para Campañas de Marketing 
+# 🎯  Segmentación de Clientes con Machine Learning para Campañas de Marketing 
 
-📌 ## Descripción del Proyecto 
+## 📌 Descripción del Proyecto 
 
 Este proyecto implementa técnicas avanzadas de Machine Learning para analizar y segmentar clientes, con el objetivo de optimizar estrategias de marketing mediante la identificación de grupos homogéneos con características similares.
 
