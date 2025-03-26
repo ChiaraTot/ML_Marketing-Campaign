@@ -6,7 +6,7 @@ Este proyecto implementa técnicas avanzadas de Machine Learning para analizar y
 
 🚀 Características Principales
 
-Técnica de Segmentación: Clustering con K-Means \r
+- Técnica de Segmentación: Clustering con K-Means
 Objetivo: Personalización de estrategias de marketing
 
 Enfoque: Análisis cuantitativo basado en datos numéricos
@@ -35,6 +35,19 @@ Conductuales: Hábitos de compra, Frecuencia de compras, Canales preferidos
 
 🛠 Estructura del Repositorio
 
+project-root/
+│
+├── src/
+│   ├── data_sample/          # Archivos de datos de muestra
+│   ├── img/                  # Imágenes del proyecto
+│   ├── notebooks/            # Cuadernos de experimentación
+│   ├── results_notebook/     # Notebook final del proyecto
+│   ├── models/               # Modelos de Machine Learning guardados
+│   └── utils/                # Módulos y funciones auxiliares
+│
+├── requirements.txt          # Dependencias del proyecto
+├── README.md                 # Documentación del proyecto
+└── LICENSE                   # Licencia del proyecto
 
 project-root/
 │
@@ -52,38 +65,39 @@ project-root/
 Ruta repositorio : git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
 
 🧠 Metodología de Machine Learning
-Algoritmo Principal: K-Means
+- Algoritmo Principal: K-Means
 
-Tipo: Aprendizaje no supervisado
-Objetivo: Agrupar clientes en clusters basados en similitudes
+- Tipo: Aprendizaje no supervisado
+- Objetivo: Agrupar clientes en clusters basados en similitudes
 Proceso:
 
-Preparación y limpieza de datos
-Elaboración EDA
-Selección de características relevantes
-Aplicación del algoritmo K-Means
-Análisis de resultados y visualización de clusters
+- Preparación y limpieza de datos
+- Elaboración EDA
+- Selección de características relevantes
+- Aplicación del algoritmo K-Means
+- Análisis de resultados y visualización de clusters
 
 
 
 🔬 Tecnologías Utilizadas
 
-Python 3.12.7
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Seaborn
+- Python 3.12.7
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
 
 📈 Métricas de Evaluación
 
-Coeficiente de Silhouette
-Inercia (Within-Cluster Sum of Squares) :Metodo del codo
-Distribución de clusters : Visualizacion 'cuchillos'
+- Coeficiente de Silhouette
+- Inercia (Within-Cluster Sum of Squares) :Metodo del codo
+- Distribución de clusters : Visualizacion 'cuchillos'
 
 🎯 Clustering Profiling
 
-interpretacion de los resultados y propuestas estrategias de Marketing por cada Cluster.
+Interpretacion de los resultados y propuestas estrategias de Marketing por cada Cluster.
 
 📞 Contacto
 www.linkedin.com/in/ctotaro
