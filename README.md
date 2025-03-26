@@ -18,12 +18,9 @@ Dataset: Conjunto de datos opensource disponible en Kaggle
 ### 💡 Importancia de la Segmentación en Marketing
 La segmentación de clientes en Marketing es fundamental para:
 
-✅ Diseñar campañas más efectivas y personalizadas 
-
-✅ Optimizar la asignación de recursos de marketing
-
-✅ Aumentar la retención y fidelización de clientes
-
+✅ Diseñar campañas más efectivas y personalizadas  
+✅ Optimizar la asignación de recursos de marketing  
+✅ Aumentar la retención y fidelización de clientes  
 ✅ Maximizar el retorno de inversión (ROI) en estrategias publicitarias.
 
 
@@ -31,8 +28,8 @@ La segmentación de clientes en Marketing es fundamental para:
 
 En funcion del las variables proporcionadas en el dataset, se ha podido efectuar segmentacion enfocandose en carateristicas:
 
-``📊 Demográficas`` : Edad, Ingresos, Composición familiar, Nivel educativo
-`` 📈 Conductuales`` : Hábitos de compra, Frecuencia de compras, Canales preferidos
+``📊 Demográficas`` : Edad, Ingresos, Composición familiar, Nivel educativo  
+``📈 Conductuales`` : Hábitos de compra, Frecuencia de compras, Canales preferidos
 
 
 #### 🛠 Estructura del Repositorio
