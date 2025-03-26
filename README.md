@@ -31,12 +31,13 @@ La segmentación de clientes en Marketing es fundamental para:
 
 En funcion del las variables proporcionadas en el dataset, se ha podido efectuar segmentacion enfocandose en carateristicas:
 
-o 📊 Demográficas : Edad, Ingresos, Composición familiar, Nivel educativo
-o 📈 Conductuales: Hábitos de compra, Frecuencia de compras, Canales preferidos
+``📊 Demográficas`` : Edad, Ingresos, Composición familiar, Nivel educativo
+`` 📈 Conductuales`` : Hábitos de compra, Frecuencia de compras, Canales preferidos
 
 
 #### 🛠 Estructura del Repositorio
 
+``src/data_sample`` # Archivo con los datos
 project-root/
 │
 ├── src/
@@ -52,13 +53,13 @@ project-root/
 
 Ruta repositorio : git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
 
- ###🧠Metodología de Machine Learning
+ ### 🧠Metodología de Machine Learning
  #### Algoritmo Principal: K-Means
 
-##### Tipo: #### Aprendizaje no supervisado
+##### Tipo: Aprendizaje no supervisado
 ##### Objetivo: Agrupar clientes en clusters basados en similitudes
 ##### Proceso:
-   1.Preparación y limpieza de datos
+   ``1.Preparación y limpieza de datos``
    2.Elaboración EDA
    3.Selección de características relevantes
    4.Aplicación del algoritmo K-Means
