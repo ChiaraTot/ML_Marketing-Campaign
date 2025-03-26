@@ -1,12 +1,14 @@
 🎯 Segmentación de Clientes con Machine Learning para Campañas de Marketing 
 
 📌 Descripción del Proyecto 
+
 Este proyecto implementa técnicas avanzadas de Machine Learning para analizar y segmentar clientes, con el objetivo de optimizar estrategias de marketing mediante la identificación de grupos homogéneos con características similares.
 
 🚀 Características Principales
 
-Técnica de Segmentación: Clustering con K-Means
+Técnica de Segmentación: Clustering con K-Means \r
 Objetivo: Personalización de estrategias de marketing
+
 Enfoque: Análisis cuantitativo basado en datos numéricos
 
 📊 Fuente de Datos
@@ -17,9 +19,10 @@ Dataset: Conjunto de datos opensource disponible en Kaggle
 💡 Importancia de la Segmentación en Marketing
 La segmentación de clientes en Marketing es fundamental para:
 
-✅ Diseñar campañas más efectivas y personalizadas
-✅ Optimizar la asignación de recursos de marketing
-✅ Aumentar la retención y fidelización de clientes
+✅ Diseñar campañas más efectivas y personalizadas 
+
+✅ Optimizar la asignación de recursos de marketing \r
+✅ Aumentar la retención y fidelización de clientes \t
 ✅ Maximizar el retorno de inversión (ROI) en estrategias publicitarias.
 
 
