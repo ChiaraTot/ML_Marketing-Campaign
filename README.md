@@ -1,3 +1,97 @@
+## 🎯 Customer Segmentation with Machine Learning for Marketing Campaigns  
+
+### 📌 Project Description  
+
+This project implements advanced Machine Learning techniques to analyze and segment customers, aiming to optimize marketing strategies by identifying homogeneous groups with similar characteristics.
+
+### 🚀 Key Features  
+
+- Segmentation Technique: K-Means Clustering
+- Objective: Personalization of marketing strategies
+- Approach: Quantitative analysis based on numerical data  
+
+#### 📊 Data Source  
+
+Dataset: Open-source dataset available on Kaggle
+
+### 💡 Importance of Segmentation in Marketing
+
+Customer segmentation in Marketing is essential for:
+
+✅ Designing more effective and personalized campaigns  
+✅ Optimizing the allocation of marketing resources  
+✅ Increasing customer retention and loyalty  
+✅ Maximizing the return on investment (ROI) in advertising strategies  
+
+#### 🔍 Types of Segmentation Explored  
+
+Based on the variables provided in the dataset, segmentation has been performed focusing on characteristics:
+
+``📊 Demographics``: Age, Income, Family composition, Educational level
+``📈 Behavioral``: Purchase habits, Purchase frequency, Preferred channels
+
+#### 🛠 Repository Structure
+
+~~~
+project-root/
+│
+├── src/
+│  ├── data_sample/         # Data file
+│  ├── img/            # Project images
+│  ├── notebooks/         # Experimentation notebooks
+│  ├── results_notebook/   # Final project notebook
+│  ├── models/         # Saved Machine Learning models
+│  └── utils/          # Auxiliary modules and functions
+│
+├── PRESENTACION.ppt         # Project presentation
+└── README.md            # Project documentation
+~~~  
+
+Repository path: git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
+
+ ### 🧠 Machine Learning Methodology  
+#### Main Algorithm: K-Means   
+#### Type: Unsupervised learning  
+#### Objective: Group customers into clusters based on similarities  
+
+### Process:  
+``1. Data preparation and cleaning``     
+``2. EDA elaboration``  
+``3. Features importance - Features Engineering``  
+``4. Application of the K-Means algorithm``  
+``5. Analysis of results and visualization of clusters´´
+
+ #### 🔬 Technologies   
+
+- Python 3.12.7  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+#### 📈 Evaluation Metrics  
+
+- Silhouette Coefficient  
+- Inertia (Within-Cluster Sum of Squares): Elbow method  
+- Cluster distribution: 'Knife' visualization  
+
+### 🎯 Clustering Profiling  
+
+Interpretation of the results and proposed Marketing strategies for each Cluster.
+
+### 📞 Contact  
+www.linkedin.com/in/ctotaro
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+
+__ESP__
+
 ## 🎯  Segmentación de Clientes con Machine Learning para Campañas de Marketing 
 
 ### 📌 Descripción del Proyecto 
@@ -76,7 +170,7 @@ Ruta repositorio : git clone https://github.com/ChiaraTot/ML_Marketing-Campaign
 - Seaborn
 
 
-#### 📈Métricas de Evaluación
+#### 📈 Métricas de Evaluación
 
 - Coeficiente de Silhouette
 - Inercia (Within-Cluster Sum of Squares) :Metodo del codo
