@@ -27,7 +27,7 @@ Customer segmentation in Marketing is essential for:
 
 Based on the variables provided in the dataset, segmentation has been performed focusing on characteristics:
 
-``📊 Demographics``: Age, Income, Family composition, Educational level
+``📊 Demographics``: Age, Income, Family composition, Educational level  
 ``📈 Behavioral``: Purchase habits, Purchase frequency, Preferred channels
 
 #### 🛠 Repository Structure

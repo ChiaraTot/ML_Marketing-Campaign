@@ -69,11 +69,11 @@ def education_level(education):
         
 def family_status(row):
         ''''
-        Función para clasificar según TotalSons y Marital_Status
+        Función para clasificar según TotalKids y Marital_Status
         '''
-        if row['TotalSons'] == 0 and row['Marital_Status'] in ['Absurd', 'Alone', 'Yolo', 'Single', 'Widow', 'Divorced']:
+        if row['TotalKids'] == 0 and row['Marital_Status'] in ['Absurd', 'Alone', 'Yolo', 'Single', 'Widow', 'Divorced']:
             return 'AloneNoKids'
-        elif row['TotalSons'] == 0:
+        elif row['TotalKids'] == 0:
             return 'InPartneringNoKids' #DINK - Double Income No Kids
         elif row['Marital_Status'] in ['Absurd', 'Alone', 'Yolo', 'Single', 'Widow', 'Divorced']:
             return 'AloneWithKids' 
@@ -107,8 +107,8 @@ def preprocesado_df_marketing_campaign(df):
     cut_labels_Income = ['Low income', 'Low to medium income', 'Medium to high income', 'High income']
     df['Income_group'] = pd.qcut(df['Income'], q=4, labels=cut_labels_Income)
 
-    ##TotalSons
-    df['TotalSons'] = df['Kidhome'] + df['Teenhome']
+    ##TotalKids
+    df['TotalKids'] = df['Kidhome'] + df['Teenhome']
 
     ## Education Level 
     df['Education_Level'] = df['Education'].apply(education_level)
@@ -120,13 +120,13 @@ def preprocesado_df_marketing_campaign(df):
     df['Total_Spend']=df['MntWines']+df['MntFruits']+df['MntMeatProducts']+df['MntFishProducts']+df['MntSweetProducts']+df['MntGoldProds']
     
     #Creacion Feature que suma los resultados de todas las campañas realizadas
-    df['Total_Campañas_Aceptadas']=df['AcceptedCmp1']+df['AcceptedCmp2']+df['AcceptedCmp3']+df['AcceptedCmp4']+df['AcceptedCmp5']+df['Response']
+    df['TotalAcceptedCmp']=df['AcceptedCmp1']+df['AcceptedCmp2']+df['AcceptedCmp3']+df['AcceptedCmp4']+df['AcceptedCmp5']+df['Response']
 
     #Creacion Feature suma de todas las compras realizadas en los distintos canales
-    df['Total_Compras']=df['NumDealsPurchases']+df['NumWebPurchases']+df['NumStorePurchases']+df['NumCatalogPurchases']
+    df['TotalPurchases']=df['NumDealsPurchases']+df['NumWebPurchases']+df['NumStorePurchases']+df['NumCatalogPurchases']
     
     #Creacion Feature Madeia por compra
-    df['MediaXcompra'] = df['Total_Spend'] / (df['Total_Compras']+1)
+    df['AmountPerPurchase'] = df['Total_Spend'] / (df['TotalPurchases']+1)
 
     
     return df
